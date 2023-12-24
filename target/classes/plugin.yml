@@ -1,0 +1,5 @@
+name: LegacyTNT
+version: '1.0-SNAPSHOT'
+main: legacystore.store.legacytnt.LegacyTNT
+commands:
+  givetnt:

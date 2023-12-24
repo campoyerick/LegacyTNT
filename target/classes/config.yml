@@ -1,0 +1,32 @@
+opcoes:
+  botaoparaexecutar: "RIGHT"
+
+mensagens:
+  recebeu: "§eVocê recebeu sua TNT gostosa"
+  permissao: "§cVocê não tem permissão para executar o comando."
+  ## lance: "§aUAU! Você fez um estrondo."
+  entregue: "§eTNT entregue com sucesso para %jogador%."
+  recebeu_jogador: "§eVocê recebeu %quantidade% TNT(s)."
+  uso_correto: "§cUso correto: /givetnt <jogador> <quantidade> <tipoTNT>"
+  jogador_nao_encontrado: "§cJogador não encontrado."
+  quantidade_invalida: "§cQuantidade inválida. Por favor, insira um número válido maior que zero."
+
+tnts:
+  tnt1:
+    animacao: true
+    tntsnaanimacao: 6
+    item:
+      nome: "§4TNT DE Pulsão"
+      lore:
+        - "§7Essa TNT é a melhor do mundo!"
+        - "§7Use ela para matar sua mina."
+      glow: false
+  tnt2:
+    animacao: false
+    tntsnaanimacao: 6
+    item:
+      nome: "§4TNT DE Pulsão 2"
+      lore:
+        - "§7Essa TNT é a melhor do mundo!"
+        - "§7Use ela para matar sua mina."
+      glow: true
